@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #3C2DE0;
     color: #F4F4F4;
     font-family: Poppins;
@@ -9,6 +16,11 @@ main {
     flex-direction: row;
     align-items: center;
     padding: 15%;
+}
+
+h2 {
+    color: #021942;
+    font-size: 1.5rem;
 }
 
 a {
