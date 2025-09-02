@@ -1,0 +1,105 @@
+body {
+    background-color: #3C2DE0;
+    color: #F4F4F4;
+    font-family: Poppins;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15%;
+}
+
+a {
+    text-decoration: None;
+    text-align: center;
+    color: #F4F4F4;
+    background-color: #5AA4E0;
+    margin: 1rem;
+    padding: 1rem;
+    border: #2DE0BE;
+    border-radius: 5%;    
+}
+
+a:hover {
+    color: #5AA4E0;
+    background-color: #F4F4F4;
+}
+
+.aboutMe {
+    max-width: 45%;
+    font-size: 1.3rem;
+}
+
+.conectWithMe{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7rem;
+    font-size: 1.5rem;
+}
+
+.linkSocial{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+#perfil{
+    width: 20rem;
+    border: #3C1DE0;
+    border-style:solid;
+    border-width: 0.20rem;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1250px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;  
+    }
+    .aboutMe{
+        max-width: 90%;
+        font-size: 1.5rem;
+    }
+    .conectWithMe {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0rem;
+    }
+    .linkSocial{
+        display: flex;
+        flex-direction: row;
+        margin: 0.25rem;
+        padding: 0.5rem;
+    }
+    a {
+        margin: 1rem;
+        padding: 1rem 3rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;  
+    }
+    .aboutMe{
+        max-width: 80%;
+        font-size: 1.3rem;
+    }
+    .conectWithMe {
+        max-width: 80%;
+        padding-left: 0rem;
+    }
+     
+}
+
+
+

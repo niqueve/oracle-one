@@ -12,4 +12,8 @@ Deselvolver uma aplicação que permita aos usuários inserir nomes de amigos em
 **Visualizar a lista**: Os nomes inseridos aparecerão em uma lista abaixo do campo de entrada.
 **Sorteio aleatório**: Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
 
+## Desafio 2 - Portfólio
+* Criar e personalizar uma página com seu portfólio utilizando html e css
+* O conteúdo básico da página consiste de 1 título, 2 paragrafos contando a trajetória, 1 foto de perfil e botões que redirecionam para as redes sociais.
+
 
