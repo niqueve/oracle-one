@@ -18,5 +18,8 @@
     <li>Acesse o site <a href="https://www.exchangerate-api.com/">exchangerate-api</a> e gere sua chave da API</li>
     <li>Crie um arquivo .env utilizando o arquivo .env.example como base e adicione a chave da API;</li>
     <li>Rode o código da main e siga as orientações do menu no terminal para obter a conversão das moedas desejadas.</li>
- </ol>
+ </ol><br/>
+
  
+ 
+![Video do códio e projeto em funcionamento](https://github.com/user-attachments/assets/3b1600c1-0f3f-4637-a4c9-2f371bcf4ffd)
