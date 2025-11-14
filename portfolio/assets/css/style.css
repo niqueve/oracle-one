@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-primaria: #3C2DE0;
+    --cor-secundaria: #F4F4F4;
+    --cor-terciaria: #021942;
+    --cor-h2: #021942;
+    --cor-botao: #5AA4E0;
+    --cor-borda: #2DE0BE;
+    
+    --font-primaria: "Roboto", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +19,9 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #3C2DE0;
-    color: #F4F4F4;
-    font-family: Poppins;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
 }
 
 main {
@@ -19,24 +32,24 @@ main {
 }
 
 h2 {
-    color: #021942;
+    color: var(--cor-h2);
     font-size: 1.5rem;
 }
 
 a {
     text-decoration: None;
     text-align: center;
-    color: #F4F4F4;
-    background-color: #5AA4E0;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-botao);
     margin: 1rem;
     padding: 1rem;
-    border: #2DE0BE;
+    border: var(--cor-borda);
     border-radius: 5%;    
 }
 
 a:hover {
-    color: #5AA4E0;
-    background-color: #F4F4F4;
+    color: var(--cor-botao);
+    background-color: var(--cor-secundaria);
 }
 
 .aboutMe {
@@ -44,7 +57,7 @@ a:hover {
     font-size: 1.3rem;
 }
 
-.conectWithMe{
+.conectMe{
     display: flex;
     flex-direction: column;
     padding-left: 7rem;
